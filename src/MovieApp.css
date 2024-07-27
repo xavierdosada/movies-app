@@ -1,0 +1,28 @@
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.movie-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.movie-card{
+    background-color: blueviolet;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px black;
+}
+
+.movie-card img{
+    width: 100%;
+    height: auto;
+
+}
+
+.movie-card h1{
+    font-size: 22px;
+}
